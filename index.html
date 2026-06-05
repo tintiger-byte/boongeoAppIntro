@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>붕어짱 — 전통의 맛, 기술로 피어나다</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Premium details for grid screen captions */
+    .screen-caption {
+      padding: 16px;
+      background: var(--bg-white);
+      text-align: center;
+      font-family: 'Plus Jakarta Sans', 'Noto Sans KR', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text-neutral);
+      border-top: 1px solid rgba(62, 39, 35, 0.05);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .screen-item:hover .screen-caption {
+      background: var(--bg-tertiary);
+      color: var(--secondary-orange);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a href="#" class="logo">BoongeoZzang</a>
+    <nav class="nav-links">
+      <a href="#heritage">Features</a>
+      <a href="#ordering">Ordering</a>
+      <a href="#screens">Screens</a>
+    </nav>
+    <a href="https://boongeojjang.vercel.app" target="_blank" rel="noopener noreferrer" class="nav-cta">앱 다운로드</a>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text scroll-fade">
+        <span class="hero-tag">BoongeoZzang App</span>
+        <h1 class="hero-title">전통의 맛,<br>기술로 피어나다.</h1>
+        <p class="hero-sub">언제 어디서나 쉽게 만나는 우리 동네 최고의 붕어빵 서비스.<br>혁신적인 모바일 연동으로 더 빠르고 스마트하게 즐겨보세요.</p>
+        <div class="hero-btns">
+          <a href="#download" class="btn-dark">시작하기</a>
+          <a href="#ordering" class="btn-light-outline">기능 보기</a>
+        </div>
+      </div>
+      <div class="hero-visual scroll-fade">
+        <div class="mockup-wrap">
+          <div class="img-placeholder main-mockup-1"><span>📱 앱 메인 화면</span></div>
+          <div class="img-placeholder main-mockup-2"><span>📱 상품 상세 화면</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="heritage" id="heritage">
+    <div class="section-max">
+      <div class="section-header text-center scroll-fade">
+        <h2>Heritage & Vision</h2>
+      </div>
+      <div class="card-grid">
+        <div class="feature-card scroll-fade">
+          <div class="card-icon">🪵</div>
+          <h3>전통의 보존</h3>
+          <p>어머니의 손맛 그대로, 엄선된 팥과 반죽을 사용하여 가장 완벽한 붕어빵의 맛을 이어갑니다.</p>
+        </div>
+        <div class="feature-card scroll-fade">
+          <div class="card-icon">⚡</div>
+          <h3>신속한 예약</h3>
+          <p>스마트 오더 시스템으로 기다림 없이 따끈따끈한 붕어빵을 바로 픽업할 수 있습니다.</p>
+        </div>
+        <div class="feature-card scroll-fade">
+          <div class="card-icon">📍</div>
+          <h3>위치 기반 탐색</h3>
+          <p>내 주변의 붕어짱 인증 푸드트럭과 매장 위치를 실시간 지도로 정확하게 안내합니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ordering" id="ordering">
+    <div class="section-max">
+      <div class="ordering-header scroll-fade">
+        <h2>Seamless Ordering</h2>
+        <p class="section-desc">직관적이고 매끄러운 4단계 주문 진행 과정으로 남녀노소 누구나 쉽게 주문 가능합니다.</p>
+      </div>
+
+      <div class="slider-container scroll-fade">
+        <div class="slider-track" id="sliderTrack">
+          <div class="slide-card">
+            <div class="img-placeholder mockup-step-1"><span>📱 1. 빵 종류 선택</span></div>
+            <h4>Select Bread</h4>
+            <p>베이스가 되는 프리미엄 빵 종류 선택</p>
+          </div>
+          <div class="slide-card">
+            <div class="img-placeholder mockup-step-2"><span>📱 2. 속재료 선택</span></div>
+            <h4>Select Filling</h4>
+            <p>초콜릿, 슈크림, 단팥 등 속재료 커스텀</p>
+          </div>
+          <div class="slide-card">
+            <div class="img-placeholder mockup-step-3"><span>📱 3. 음료 선택</span></div>
+            <h4>Select Drink</h4>
+            <p>붕어빵과 조화를 이루는 음료 매칭</p>
+          </div>
+          <div class="slide-card">
+            <div class="img-placeholder mockup-step-4"><span>📱 4. 장바구니 및 결제</span></div>
+            <h4>Cart & Payment</h4>
+            <p>원클릭 토스페이 간편 결제 진행</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="screens" id="screens">
+    <div class="section-max">
+      <div class="section-header text-center scroll-fade">
+        <h2>붕어짱의 모든 순간</h2>
+        <p class="section-desc center">유저 중심의 섬세한 UX/UI 설계가 반영된 서비스 화면 모음입니다.</p>
+      </div>
+      <div class="screens-grid">
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-1"></div>
+          <div class="screen-caption">스플래시 화면</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-2"></div>
+          <div class="screen-caption">상품 상세 화면</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-3"></div>
+          <div class="screen-caption">빵 메뉴 목록</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-4"></div>
+          <div class="screen-caption">빵 종류 선택</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-5"></div>
+          <div class="screen-caption">속재료 메뉴</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-6"></div>
+          <div class="screen-caption">속재료 커스텀</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-7"></div>
+          <div class="screen-caption">음료 추가 선택</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-8"></div>
+          <div class="screen-caption">장바구니 화면</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-9"></div>
+          <div class="screen-caption">간편 결제 진행</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-10"></div>
+          <div class="screen-caption">간편 회원가입</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-11"></div>
+          <div class="screen-caption">카카오 로그인</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-12"></div>
+          <div class="screen-caption">네이버 로그인</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-13"></div>
+          <div class="screen-caption">이메일 로그인</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-14"></div>
+          <div class="screen-caption">고객 리뷰 목록</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-15"></div>
+          <div class="screen-caption">리뷰 작성하기</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-16"></div>
+          <div class="screen-caption">리뷰 사진 첨부</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-17"></div>
+          <div class="screen-caption">회원 마이페이지</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-18"></div>
+          <div class="screen-caption">관리자 회원조회</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-19"></div>
+          <div class="screen-caption">관리자 리뷰관리</div>
+        </div>
+        <div class="screen-item scroll-fade">
+          <div class="img-placeholder screen-img-20"></div>
+          <div class="screen-caption">관리자 상품등록</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="business">
+    <div class="section-max business-inner">
+      <div class="business-visual scroll-fade">
+        <div class="mockup-stacked">
+          <div class="img-placeholder b-mockup-1"></div>
+          <div class="img-placeholder b-mockup-2"></div>
+          <div class="img-placeholder b-mockup-3"></div>
+          <div class="img-placeholder b-mockup-4"></div>
+        </div>
+      </div>
+      <div class="business-text scroll-fade">
+        <span class="business-tag">For Owner</span>
+        <h2>소상공인 및 관리자를 위한<br>전용 서비스 백오피스</h2>
+        <ul class="business-features">
+          <li><strong>고객 데이터베이스 관리</strong> 등록된 회원 정보와 서비스 이용자 명단을 실시간으로 제어</li>
+          <li><strong>피드백 및 리뷰 제어</strong> 매장에 등록된 고객 리뷰를 모니터링하고 신속하게 답글 작성</li>
+          <li><strong>실시간 상품 콘텐츠 등록</strong> 새로운 메뉴 정보와 가격을 터치 한 번으로 즉시 업데이트</li>
+        </ul>
+        <a href="https://tintiger-byte.github.io/myPortfolio/" target="_blank" rel="noopener noreferrer"
+          class="btn-gold">파트너십 제휴 문의 →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="download" id="download">
+    <div class="section-max text-center scroll-fade">
+      <h2>지금 바로 붕어짱의<br>새로운 여정을 시작하세요.</h2>
+      <p>구글 플레이스토어와 애플 앱스토어에서 모두 만나보실 수 있습니다.</p>
+      <div class="store-btns">
+        <a href="https://play.google.com/store/apps" target="_blank" rel="noopener noreferrer" class="store-btn"><i
+            class="fa-brands fa-google-play"></i> Google Play</a>
+        <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer" class="store-btn"><i
+            class="fa-brands fa-apple"></i> App Store</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <div class="footer-logo">BoongeoZzang</div>
+        <p>전통의 맛과 최첨단 푸드테크 기술의 융합을 만들어가는 라이프스타일 플랫폼</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Contact Support</a>
+        </div>
+        <div class="footer-sns">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 BoongeoZzang App Presentation.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -37,12 +37,23 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  cursor: url('img/top_fish.png') 16 16, auto;
+}
+
 body {
   font-family: 'Be Vietnam Pro', 'Noto Sans KR', sans-serif;
   background-color: var(--bg-peach);
   color: var(--text-neutral);
   overflow-x: hidden;
   line-height: 1.6;
+}
+
+/* Custom cursor for interactive elements to retain the brand feel */
+a, button, select, input[type="submit"], input[type="button"], 
+.btn-dark, .btn-light-outline, .btn-gold, .store-btn, .nav-cta, .logo,
+.feature-card, .slide-card, .screen-item {
+  cursor: url('img/top_fish.png') 16 16, pointer;
 }
 
 section {
